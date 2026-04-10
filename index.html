@@ -11,7 +11,46 @@
 
 <body>
 
-  contennnnnnnnt
+<!--  NAVIGATION BAR 
+       <nav> is the HTML tag for navigation.
+       It contains the logo on the left and the
+       links on the right. -->
+
+  <nav class="navbar">
+
+    <a href="index.html" class="navbar-logo">
+      <!-- Compass icon using a Unicode character -->
+      <span style="font-size: 1.3rem;">⊙</span>
+      Go2travelplanner
+    </a>
+
+
+    <ul class="navbar-links">
+
+      <li><a href="index.html" class="active">Home</a></li>
+
+      <li><a href="cities.html">Cities</a></li>
+      <li><a href="daily-activities.html">Daily Activities</a></li>
+      <li><a href="my-trips.html">My Trips</a></li>
+      <li><a href="login.html">Login</a></li>
+
+  
+      <li>
+        <button class="dark-toggle" id="darkToggleBtn" onclick="toggleDarkMode()">🌙</button>
+      </li>
+
+    </ul>
+
+  </nav>
+
+
+  
+
+
+  <!--     JAVASCRIPT
+    Loads our darkmode.js file from the js/ folder -->
+    
+  <script src="js/darkmode.js"></script>
 
 </body>
 </html>
