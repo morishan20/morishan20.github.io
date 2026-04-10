@@ -1,0 +1,63 @@
+
+
+/* GO2TRAVELPLANNER - MAIN STYLESHEET */
+
+
+/* COLOUR VARIABLES */
+:root {
+  --teal: #1aabab;
+  --teal-dark: #138e8e;
+  --bg-light: #f2efe9;
+  --bg-white: #ffffff;
+  --text-dark: #2c2c2c;
+  --text-mid: #666666;
+  --text-light: #999999;
+  --border: #e0dbd3;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+
+/* 
+   This removes all of that so every browser looks
+   the same. */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+/* These styles apply to the whole page.*/
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+                   */
+
+
+/* 
+   By default browsers make links blue and underlined.
+   We remove that here so we can style links ourselves
+   in each section.*/
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+/* IMAGES */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
