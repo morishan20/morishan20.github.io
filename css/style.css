@@ -257,3 +257,75 @@ img {
 
 /* width: 100% makes it stretch to fill its container  */
 /* Used on the login page for the Create Account button */
+
+/* 
+   FEATURES SECTION
+   
+   Three columns showing what the site offers:
+   Explore Destinations, Organize by Day, Save & Share */
+
+.features {
+  background-color: var(--bg-white);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+
+
+.features h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+
+
+.section-subtitle {
+  color: var(--text-mid);
+  margin-bottom: 40px;
+  font-size: 0.95rem;
+}
+
+
+
+.features-grid {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+
+
+.feature-item {
+  max-width: 210px;
+}
+
+/* max-width: 210px stops each column getting too wide */
+
+
+.feature-icon {
+  width: 46px;
+  height: 46px;
+  margin: 0 auto 14px;
+  color: var(--teal);
+  background: #e8f6f6;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.feature-item h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+
+.feature-item p {
+  font-size: 0.85rem;
+  color: var(--text-mid);
+  line-height: 1.5;
+}
+
