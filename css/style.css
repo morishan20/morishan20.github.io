@@ -132,3 +132,128 @@ img {
   color: var(--teal);
 }
 
+/* The big banner at the top of the home page.
+   Has a gradient blue background, compass icon,
+   heading, paragraph and two buttons. */
+
+.hero {
+  background: linear-gradient(160deg, #b8dce8 0%, #7fc4d8 50%, #5aadc2 100%);
+  text-align: center;
+  padding: 80px 20px 90px;
+  color: #1a3a4a;
+}
+
+/* The compass symbol above the heading */
+
+.hero-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 20px;
+  color: #1a5060;
+}
+
+
+
+/* HEADING */
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  letter-spacing: -0.5px;
+}
+
+
+
+/* HERO PARAGRAPH */
+
+.hero p {
+  font-size: 1rem;
+  max-width: 480px;
+  margin: 0 auto 32px;
+  color: #2a4a5a;
+}
+
+
+
+/* pThe two buttons side by side */
+
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+/* BUTTONS */
+
+/* Teal filled button - main action button */
+
+.btn-teal {
+  background-color: var(--teal);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-teal:hover {
+  background-color: var(--teal-dark);
+}
+
+
+/* White outline button - secondary action button */
+
+
+.btn-outline {
+  background-color: var(--bg-white);
+  color: var(--text-dark);
+  border: 1px solid var(--border);
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-outline:hover {
+  background-color: var(--bg-light);
+}
+
+
+/* Grey button - used for less important actions */
+
+
+.btn-gray {
+  background-color: #e0dbd3;
+  color: var(--text-dark);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Full width button - stretches to fill its container */
+.btn-full {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  justify-content: center;
+}
+
+/* width: 100% makes it stretch to fill its container  */
+/* Used on the login page for the Create Account button */
