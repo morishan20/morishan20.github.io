@@ -464,19 +464,50 @@ img {
   color: white;
 }
 
-
-
 .stat-item h2 {
   font-size: 2.8rem;
   font-weight: 700;
 }
-
-
 
 .stat-item p {
   font-size: 0.9rem;
   opacity: 0.9;
 }
 
+
+/* CTA SECTION
+   
+   "Ready to Start Planning?" section at the bottom
+   of the home page with two buttons. */
+
+.cta {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: var(--bg-light);
+}
+
+.cta h2 {
+  font-size: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.cta-link {
+  color: var(--teal);
+  font-size: 0.9rem;
+  padding: 12px 24px;
+  align-self: center;
+}
+
+.cta-link:hover {
+  text-decoration: underline;
+}
 
 
