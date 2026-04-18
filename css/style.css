@@ -615,9 +615,6 @@ img {
   gap: 16px;
 }
 
-/* display: flex puts title and buttons on one row     */
-/* align-items: flex-start aligns them to the top      */
-/* flex-wrap: wrap stacks them on small screens        */
 
 
 .daily-header-left h1 {
@@ -636,3 +633,89 @@ img {
   flex-wrap: wrap;
 }
 
+
+.day-nav {
+  background: var(--bg-white);
+  border-radius: var(--radius);
+  padding: 16px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+
+
+
+.day-nav-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+
+.day-nav-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text-mid);
+  font-size: 1.2rem;
+  padding: 4px 8px;
+}
+
+.day-nav-btn:hover {
+  color: var(--teal);
+}
+
+.day-nav input[type="text"] {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  width: 180px;
+  background: var(--bg-light);
+  color: var(--text-dark);
+}
+
+.add-day-btn {
+  color: var(--teal);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.add-day-btn:hover {
+  text-decoration: underline;
+}
+
+.day-card {
+  background: var(--bg-white);
+  border-radius: var(--radius);
+  padding: 24px;
+  margin-bottom: 16px;
+  border: 1px solid var(--border);
+}
+
+.day-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.day-card-header h3 {
+  font-size: 1.1rem;
+}
+
+
+.no-activities {
+  text-align: center;
+  padding: 30px;
+  color: var(--text-mid);
+  font-size: 0.9rem;
+}
+
+.no-activities p {
+  margin-bottom: 16px;
+}

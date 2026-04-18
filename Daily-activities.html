@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Go2travelplanner - Daily Activities</title>
+
+  <!-- Link to our shared CSS file -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -22,10 +24,7 @@
     <ul class="navbar-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="cities.html">Cities</a></li>
-
-      <!-- Daily Activities is active on this page -->
       <li><a href="daily-activities.html" class="active">Daily Activities</a></li>
-
       <li><a href="my-trips.html">My Trips</a></li>
       <li><a href="login.html">Login</a></li>
       <li>
@@ -39,34 +38,102 @@
   <!-- MAIN PAGE CONTENT -->
   <div class="daily-page">
 
-    <!-- Top row: title on left, buttons on right -->
+
     <div class="daily-header">
 
-      <!-- Left side: title and subtitle -->
       <div class="daily-header-left">
         <h1>Daily Activities</h1>
         <p>Organize your attractions by day to create your perfect itinerary</p>
       </div>
 
-      <!-- Right side: two action buttons -->
       <div class="daily-header-right">
         <button class="btn-gray">📂 Load Trip</button>
         <button class="btn-teal">💾 Save Changes</button>
+        <!-- Load Trip button -->
+        <button class="btn-gray" onclick="showLoadtripPopup()"> 📂 Load Trip</button>
+
+        <!-- Save Changes button -->
+        <button class="btn-teal" onclick="showSaveChangesPopup()">💾 Save Changes</button>
       </div>
 
     </div>
 
 
+
+    <div class="day-nav">
+
+      <div class="day-nav-controls">
+       
+       
+        <span style="color: var(--teal); font-size: 1.1rem;">📅</span>
+
+       
+       
+ <input type="date" id="currentDayInput" value="2026-04-20" />
+       
+      </div>
+
+      <!-- Add Day button on the right -->
+      <button class="add-day-btn" onclick="showAddDayPopup()">+ Add Day</button>
+
+    </div>
+
+
     <!-- DAY NAVIGATOR AND DAY CARD -->
+   
+    <div class="day-card" id="dayCard">
 
     <!-- TRIP SUMMARY  -->
+      <!-- Day card header: date and "Add Activity" button -->
+      <div class="day-card-header">
+        <h3 id="dayCardTitle">Friday, February 27</h3>
+        <button class="btn-teal" onclick="showAddActivityPopup()">+ Add Activity</button>
+      </div>
+
+      <!-- Empty state: shown when this day has no activities yet -->
+      <div class="no-activities" id="noActivities">
+        <p>No activities planned for this day</p>
+        <button class="btn-teal" onclick="showAddActivityPopup()">Add First Activity</button>
+      </div>
+
+      
+      
+    </div>
 
 
   </div>
 
 
   <!-- JS at the bottom -->
+
   <script src="jaava/darkmode.js"></script>
+
+  <script>
+
+    function showLoadtripPopup() {
+      alert("This button will load a saved trip from My trips ");
+      Loadtrip();
+    }
+
+    function showSaveChangesPopup() {
+      alert("This button will save the changes and update the My trips section");
+      SaveChanges();
+    }
+
+    
+    function showAddDayPopup() {
+      alert("This button will add that day to the activity area");
+      addDay();
+    }
+
+   
+    function showAddActivityPopup() {
+      alert("This button will Show stored activities for that specific day");
+      addActivity();
+    }
+
+  
+  </script>
 
 </body>
 </html>
