@@ -8,16 +8,6 @@
 
 
 
-### **Competitive analysis:**
-The current business model is a travel planning website; In today's market many travel planners lack a structured, user friendly website for customers to use. A professional travel planner website solves plenty of issues by enhancing user experience, visual appeal and accessibility. 
-
-The competitor business we have investigated in this assignment is Wanderlog, Wanderlog help users plan trips offering a wide range of unique functions such as an AI assistant that can suggest things to do in the city for example; It can recommend the best places to eat in Paris .Another unique feature the website has is that it allows users to invite extra trip mates.The Wanderlog website design also uses red as a main colour which is a warm colour which invokes passion ,energy and comfort. Furthermore, it allows users to view maps, offer optimal routes. Finally, Wanderlog tries to offer every aspect of travel planning in one simple and easily accessible website.  
-
-The issues with the competitive Wanderlog website seen with images below is that the website tries to offer a lot of different services in one page this can feel slightly overwhelming for new users. Additionally, as seen in the map a lot of cities and places are marked with different colours which shows a user the different places they can visit in a city, for example purple marks indicate entertainment spots ,however these different coloured marks can reduce readability and can increase eye strain
-
-<img width="918" height="922" alt="image" src="https://github.com/user-attachments/assets/8fc2b891-fc16-4618-a6c0-7db8fec12e1c" />
-<img width="616" height="589" alt="image" src="https://github.com/user-attachments/assets/e833979d-9fd4-4de4-8275-323aab1369b7" />
-<img width="979" height="941" alt="image" src="https://github.com/user-attachments/assets/4e62f7b7-5f09-40b5-a69d-277707b0733e" />
 
 
 
