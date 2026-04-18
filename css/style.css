@@ -15,7 +15,19 @@
   --border: #e0dbd3;
   --shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   --radius: 12px;
+  --hero-mid-blue: #7fc4d8;
+}
 
+/* DARK MODE - Just override the variables */
+body.dark-mode {
+  --bg-light: #1a1a1a;
+  --bg-white: #2d2d2d;
+  --text-dark: #e0e0e0;
+  --text-mid: #b0b0b0;
+  --text-light: #888888;
+  --border: #404040;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --hero-mid-blue: #4a8fa0;
 }
 
 
@@ -41,6 +53,7 @@ body {
   background-color: var(--bg-light);
   color: var(--text-dark);
   line-height: 1.6;
+
 }
 
 
@@ -141,7 +154,7 @@ img {
    heading, paragraph and two buttons. */
 
 .hero {
-  background: linear-gradient(160deg, #b8dce8 0%, #7fc4d8 50%, #5aadc2 100%);
+  background: linear-gradient(160deg, #b8dce8 0%, var(--hero-mid-blue) 50%, #5aadc2 100%);
   text-align: center;
   padding: 80px 20px 90px;
   color: #1a3a4a;
