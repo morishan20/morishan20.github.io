@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Go2travelplanner - Coming Soon</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <a href="index.html" class="navbar-logo">
+      <span style="font-size: 1.3rem;">⊙</span>
+      Go2travelplanner
+    </a>
+    <div class="menu-toggle" onclick="toggleMenu()"> ☰</div>
+    <ul class="navbar-links" id="navLinks">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="cities.html">Cities</a></li>
+      <li><a href="daily-activities.html">Daily Activities</a></li>
+      <li><a href="my-trips.html">My Trips</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li>
+        <button class="dark-toggle" id="darkToggleBtn" onclick="toggleDarkMode()">🌙</button>
+      </li>
+    </ul>
+  </nav>
+
+
+  
+  <div class="coming-soon">
+    <span class="coming-soon-icon">⊙</span>
+    <h1>Coming Soon</h1>
+    <p>We are working on this feature. Check back later!</p>
+    <a href="index.html">
+      <button class="btn-teal">← Back to Home</button>
+    </a>
+  </div>
+
+
+  <script src="js/darkmode.js"></script>
+    <script>
+        function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("active");
+        }  
+    </script> 
+
+</body>
+</html>

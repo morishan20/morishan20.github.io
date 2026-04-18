@@ -892,3 +892,31 @@ img {
 .login-footer a:hover {
   text-decoration: underline;
 }
+
+
+/* COMING SOON PAGE */
+
+.coming-soon {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.coming-soon-icon {
+  font-size: 3rem;
+  color: var(--teal);
+  display: block;
+  margin-bottom: 20px;
+}
+
+.coming-soon h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+.coming-soon p {
+  color: var(--text-mid);
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
