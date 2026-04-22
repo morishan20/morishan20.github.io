@@ -214,6 +214,7 @@ As a new user who enjoys travelling, I would like a easy and simple wesbtie in w
 
 ![homescreen light mode](https://github.com/user-attachments/assets/61e3c93b-d1b1-47e9-9dfa-10fd10153f0c)
 - 
+- The background colour behind "plan your dream journey" changed from the previous wireframe to highlight the banner and easier to read by user.
 ![UXHomescreen1](https://github.com/user-attachments/assets/d72d2f56-fd18-42b5-a1b1-35ba6515c436)
 <img width="1064" height="684" alt="Screenshot 2026-03-08 at 15 55 01" src="https://github.com/user-attachments/assets/c348fc3e-4a4a-4b9c-ac08-5c6b0d9d166e" />
 <img width="1001" height="630" alt="Screenshot 2026-03-08 at 15 54 09" src="https://github.com/user-attachments/assets/fdc2c717-034b-46d0-bb45-a6999fd61a43" />
