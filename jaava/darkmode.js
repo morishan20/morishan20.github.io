@@ -1,5 +1,5 @@
 // Dark mode toggle functionality
-
+// code from MDN
 function toggleDarkMode() {
 
   document.body.classList.toggle('dark-mode');
